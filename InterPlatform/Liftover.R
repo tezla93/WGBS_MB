@@ -23,7 +23,7 @@ illumDataFrame <- as.data.frame(illumDataFrame)
 # Load in BS-Seq data:
 WGBS_BetaValues <- read.delim("WGBS_MB/data/RandomSubsetWGBS.txt") #Randomly subset WGBS dataset containing 100,000 CpGs - 1816 of which map to the 450k manifest.
 # Make sure both matrices are data.frame objects
-WGBS_BetaValues <- as.data.frame(ICGC_WGBS_BetaValues)
+WGBS_BetaValues <- as.data.frame(WGBS_BetaValues)
 #
 #
 #
